@@ -1,0 +1,12 @@
+name: Metrics existence
+message: |
+  No metrics are received any more
+drone: life
+endpoint: metrics-gra
+schedule: 10m
+params:
+  period: 5m
+  reverse: false
+notify:
+  default:
+    - selector: 'temperature{}'

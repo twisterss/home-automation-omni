@@ -1,0 +1,6 @@
+steps:
+  - name: default
+    actions:
+      - where: omni
+        who: twisterss
+        how: email

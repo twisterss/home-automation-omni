@@ -1,0 +1,4 @@
+type: metrics
+description: Metrics cluster
+endpoint: https://warp10.gra1.metrics.ovh.net
+token: "{{token}}"
